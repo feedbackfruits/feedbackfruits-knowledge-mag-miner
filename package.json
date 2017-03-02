@@ -1,0 +1,26 @@
+{
+  "name": "feedbackfruits-knowledge-mag-miner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feedbackfruits/feedbackfruits-knowledge-mag-miner.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/feedbackfruits/feedbackfruits-knowledge-mag-miner/issues"
+  },
+  "homepage": "https://github.com/feedbackfruits/feedbackfruits-knowledge-mag-miner#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "jsonld": "^0.4.11",
+    "memux": "^0.2.0",
+    "node-fetch": "^1.6.3",
+    "p-queue": "^1.0.0"
+  }
+}
