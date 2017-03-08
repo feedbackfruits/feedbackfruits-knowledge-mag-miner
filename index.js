@@ -6,7 +6,8 @@ const DBPEDIA_ENDPOINT = 'http://dbpedia.org/resource/'
 const {
   NAME = 'microsoft-academic-graph',
   KAFKA_ADDRESS = 'tcp://kafka:9092',
-  OUTPUT_TOPIC = 'quad_update_requests'
+  OUTPUT_TOPIC = 'quad_update_requests',
+  START_TOPIC = 138885662
 } = process.env;
 
 const memux = require('memux');
@@ -106,4 +107,4 @@ function doThings(magId) {
   })
 }
 
-doThings(69991583);
+doThings(START_TOPIC);
