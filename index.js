@@ -6,11 +6,13 @@ const DBPEDIA_ENDPOINT = 'http://dbpedia.org/resource/'
 const {
   NAME = 'microsoft-academic-graph',
   KAFKA_ADDRESS = 'tcp://kafka:9092',
+  CAYLEY_ADDRESS = 'feedbackfruits-cayley.herokuapp.com',
   OUTPUT_TOPIC = 'quad_update_requests',
   START_TOPIC = 138885662
 } = process.env;
 
 const memux = require('memux');
+const Cayley = require('node-cayley');
 const fetch = require('node-fetch');
 const PQueue = require('p-queue');
 const jsonld = require('jsonld').promises;
@@ -25,6 +27,9 @@ const { send } = memux({
 const queue = new PQueue({
   concurrency: 16
 });
+
+const cayley = Cayley(CAYLEY_ADDRESS);
+
 
 var context = {
   'type': '<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>',
@@ -64,47 +69,58 @@ function doThings(magId) {
   if (magId in done) return;
 
   return queue.add(() => {
-    console.log(count++, magId);
-    return get(magId).then(data => {
-      const { websites } = data;
-
-      const id = websites.map(website => {
-        const { u: url } = website;
-        return getEntityIdFromWikipediaPageUrl(url);
-      }).find(x => x);
-
-      if (!id) return;
-
-      const subject = `<http://academic.microsoft.com/#/detail/${magId}>`;
-
-      done[magId] = true;
-
-      data.parentFieldsOfStudy && data.parentFieldsOfStudy.map(parent => parent.id).forEach(parentId => {
-        const subject = `<http://academic.microsoft.com/#/detail/${magId}>`;
-        const predicate = context['parentFieldOfStudy'];
-        const object = `<http://academic.microsoft.com/#/detail/${parentId}>`;
-
-        send({ type: 'write', quad: { subject, predicate, object }});
-        doThings(parentId);
+    return new Promise((resolve, reject) => {
+      cayley.g.V(`<http://academic.microsoft.com/#/detail/${magId}>`).Has(context['type'], context['FieldOfStudy']).All((error, { result }) => {
+        if (error) return reject(error);
+        resolve(result);
       });
+    }).then(result => {
+      debugger;
+      if (result) return done[magId] = true;
 
-      data.childFieldsOfStudy && data.childFieldsOfStudy.map(child => child.id).forEach(childId => {
+      console.log(count++, magId, queue.size);
+      return get(magId).then(data => {
+        const { websites } = data;
+
+        const id = websites.map(website => {
+          const { u: url } = website;
+          return getEntityIdFromWikipediaPageUrl(url);
+        }).find(x => x);
+
+        if (!id) return;
+
         const subject = `<http://academic.microsoft.com/#/detail/${magId}>`;
-        const predicate = context['childFieldOfStudy'];
-        const object = `<http://academic.microsoft.com/#/detail/${childId}>`;
 
-        send({ type: 'write', quad: { subject, predicate, object }});
-        doThings(childId);
+        done[magId] = true;
+
+        data.parentFieldsOfStudy && data.parentFieldsOfStudy.map(parent => parent.id).forEach(parentId => {
+          const subject = `<http://academic.microsoft.com/#/detail/${magId}>`;
+          const predicate = context['parentFieldOfStudy'];
+          const object = `<http://academic.microsoft.com/#/detail/${parentId}>`;
+
+          send({ type: 'write', quad: { subject, predicate, object }});
+          doThings(parentId);
+        });
+
+        data.childFieldsOfStudy && data.childFieldsOfStudy.map(child => child.id).forEach(childId => {
+          const subject = `<http://academic.microsoft.com/#/detail/${magId}>`;
+          const predicate = context['childFieldOfStudy'];
+          const object = `<http://academic.microsoft.com/#/detail/${childId}>`;
+
+          send({ type: 'write', quad: { subject, predicate, object }});
+          doThings(childId);
+        });
+
+        return Promise.all([
+          send({ type: 'write', quad: { subject, predicate: context['name'], object: data.entityTitle } }),
+          send({ type: 'write', quad: { subject, predicate: context['type'], object: context['FieldOfStudy'] } }),
+          send({ type: 'write', quad: { subject, predicate: context['description'], object: data.description } }),
+          data.image ? send({ type: 'write', quad: { subject, predicate: context['image'], object: `<${data.image}>` } }) : Promise.resolve()  ,
+          send({ type: 'write', quad: { subject, predicate: context['sameAs'], object: `<http://dbpedia.org/resource/${id}>` } })
+        ]);
       });
-
-      return Promise.all([
-        send({ type: 'write', quad: { subject, predicate: context['name'], object: data.entityTitle } }),
-        send({ type: 'write', quad: { subject, predicate: context['description'], object: data.description } }),
-        data.image ? send({ type: 'write', quad: { subject, predicate: context['image'], object: `<${data.image}>` } }) : Promise.resolve()  ,
-        send({ type: 'write', quad: { subject, predicate: context['sameAs'], object: `<http://dbpedia.org/resource/${id}>` } })
-      ]);
     });
-  })
+  });
 }
 
 doThings(START_TOPIC);
