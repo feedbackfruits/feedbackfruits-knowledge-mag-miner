@@ -10,8 +10,8 @@ const {
   OUTPUT_TOPIC = 'quad_update_requests',
   MAG_API_KEY,
   START_PAGE = 1,
-  END_PAGE = 3,
-  PAGE_SIZE = 10
+  END_PAGE = Infinity,
+  PAGE_SIZE = 100
 } = process.env;
 
 const { send } = memux({
