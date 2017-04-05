@@ -63,7 +63,7 @@ function sendQuad(quad) {
 }
 
 function fieldNameToWikiId(name) {
-  return `${name[0].toUpperCase()}${name.slice(1)}`.replace(/ /g, '_');
+  return `${name[0].toUpperCase()}${name.toLowerCase().slice(1)}`.replace(/ /g, '_');
 }
 
 function fieldOfStudyToQuad(entity) {
