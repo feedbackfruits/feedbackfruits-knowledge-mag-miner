@@ -1,4 +1,4 @@
-import Context from './context';
+import * as Context from '../context';
 
 function fieldNameToWikiId(name) {
   return `${name[0].toUpperCase()}${name.slice(1)}`.replace(/ /g, '_');
