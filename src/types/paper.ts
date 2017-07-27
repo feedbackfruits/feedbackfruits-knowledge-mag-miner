@@ -1,10 +1,12 @@
+import { Quad } from 'memux';
+
 import * as Context from '../context';
 
 function fieldNameToWikiId(name) {
   return `${name[0].toUpperCase()}${name.slice(1)}`.replace(/ /g, '_');
 }
 
-export function paperToQuad(entity) {
+export function paperToQuad(entity): Quad[] {
   let {
     Id: id,
     Ti: title,
@@ -13,6 +15,7 @@ export function paperToQuad(entity) {
     'F': entities
   } = entity;
 
+  console.log('Parsing metadata.');
   let metadata = JSON.parse(metadataStr);
 
   let {
@@ -53,7 +56,5 @@ export function paperToQuad(entity) {
     }));
   }
 
-  console.log(quads);
-
-  return [];
+  return quads;
 }

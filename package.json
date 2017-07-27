@@ -13,6 +13,7 @@
     "coverage": "codecov",
     "build": "tsc",
     "watch": "tsc -w",
+    "start": "node lib",
     "prepublish": "npm run build"
   },
   "nyc": {},
@@ -47,10 +48,12 @@
   "dependencies": {
     "@reactivex/rxjs": "^5.4.2",
     "@types/node": "^8.0.14",
+    "@types/node-fetch": "^1.6.7",
     "dotenv": "^4.0.0",
     "feedbackfruits-knowledge-context": "feedbackfruits/feedbackfruits-knowledge-context",
     "feedbackfruits-knowledge-engine": "feedbackfruits/feedbackfruits-knowledge-engine",
     "memux": "github:knowledge-express/memux#feature/more-typescript-things",
+    "nock": "^9.0.14",
     "node-cayley": "^1.1.1",
     "node-fetch": "^1.6.3",
     "p-queue": "^1.0.0",
