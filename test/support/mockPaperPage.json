@@ -1,0 +1,797 @@
+{
+  "expr": "Ty='0'",
+  "entities": [
+    {
+      "logprob": -17.917,
+      "Id": 1994667404,
+      "E": "{\"DN\":\"0.05-Î¼m-Gate InAlAs/InGaAs High Electron Mobility Transistor and Reduction of Its Short-Channel Effects\",\"IA\":{\"IndexLength\":106,\"InvertedIndex\":{\"In\":[0],\"this\":[1],\"paper,\":[2],\"we\":[3],\"discusse\":[4],\"the\":[5,9,28,39,43,79,82,99,103],\"advantages\":[6],\"of\":[7,30,42,66,76],\"thinning\":[8],\"channel\":[10,80],\"on\":[11],\"short-channel\":[12,100],\"effects\":[13,101],\"for\":[14,97],\"lattice-matched\":[15],\"InAlAs/InGaAs\":[16],\"high\":[17],\"electron\":[18],\"mobility\":[19],\"transistors\":[20],\"(HEMTs)\":[21],\"with\":[22,25],\"sub-0.1-Î¼m-long\":[23],\"gates\":[24],\"regard\":[26],\"to\":[27,85],\"performance\":[29],\"a\":[31,36,49,61],\"0.05-Î¼m-gate\":[32],\"device.\":[33],\"To\":[34],\"fabricate\":[35],\"sub-0.1-Î¼m\":[37],\"gate,\":[38],\"opening\":[40],\"shape\":[41],\"gate-footprint\":[44],\"is\":[45,95],\"controlled\":[46],\"by\":[47],\"using\":[48],\"bilayer\":[50],\"dielectric\":[51],\"film\":[52],\"system\":[53],\"and\":[54,69,81,91,94],\"RIE\":[55],\"side\":[56],\"etching.\":[57],\"The\":[58],\"device\":[59],\"shows\":[60],\"current\":[62],\"gain\":[63],\"cutoff\":[64],\"frequency\":[65],\"300\":[67],\"GHz\":[68],\"g\":[70],\"m\":[71],\"/g\":[72],\"d\":[73],\"ratio\":[75],\"15.\":[77],\"Thinning\":[78],\"barrier\":[83],\"down\":[84],\"100\":[86],\"A\":[87],\"improves\":[88],\"carrier\":[89],\"confinement\":[90],\"subthreshold\":[92],\"characteristics\":[93],\"indispensable\":[96],\"reducing\":[98],\"in\":[102],\"sub-0.1-Î¼m-gate-length\":[104],\"region\":[105]}},\"S\":[{\"Ty\":3,\"U\":\"http://iopscience.iop.org/article/10.1143/JJAP.33.798/pdf\"},{\"Ty\":1,\"U\":\"http://iopscience.iop.org/article/10.1143/JJAP.33.798/meta\"},{\"Ty\":1,\"U\":\"http://adsabs.harvard.edu/abs/1994JaJAP..33..798E\"},{\"Ty\":1,\"U\":\"http://ci.nii.ac.jp/naid/110003902924\"},{\"Ty\":1,\"U\":\"http://cat.inist.fr/?aModele=afficheN&cpsidt=4094956\"},{\"Ty\":1,\"U\":\"http://stacks.iop.org/1347-4065/33/798\"},{\"Ty\":0,\"U\":\"http://iopscience.iop.org/1347-4065/33/1S/798\"}],\"VFN\":\"Japanese Journal of Applied Physics\",\"V\":33,\"I\":1,\"FP\":798,\"LP\":803,\"DOI\":\"10.1143/JJAP.33.798\",\"RP\":[{\"Id\":2147599582,\"CoC\":15},{\"Id\":2158888933,\"CoC\":9},{\"Id\":2133935269,\"CoC\":11},{\"Id\":243912583,\"CoC\":12},{\"Id\":2081275317,\"CoC\":20},{\"Id\":2035709929,\"CoC\":9},{\"Id\":2021665130,\"CoC\":10},{\"Id\":2116793014,\"CoC\":8},{\"Id\":2078505695,\"CoC\":10},{\"Id\":2126757308,\"CoC\":10},{\"Id\":2063194426,\"CoC\":10},{\"Id\":2127342250,\"CoC\":11},{\"Id\":1966423045,\"CoC\":9},{\"Id\":2168012572,\"CoC\":8},{\"Id\":1976846537,\"CoC\":9},{\"Id\":2130625258,\"CoC\":10},{\"Id\":2088218890,\"CoC\":12},{\"Id\":2121766854,\"CoC\":49},{\"Id\":2121747378,\"CoC\":8},{\"Id\":2107239128,\"CoC\":17}],\"ANF\":[{\"FN\":\"Takatomo\",\"LN\":\"Enoki\",\"S\":1},{\"FN\":\"Masaaki\",\"LN\":\"Tomizawa\",\"S\":2},{\"FN\":\"Yohtaro\",\"LN\":\"Umeda\",\"S\":3},{\"FN\":\"Yasunobu\",\"LN\":\"Ishii\",\"S\":4}],\"BV\":\"Japanese Journal of Applied Physics\",\"BT\":\"a\"}",
+      "Ti": "0 05 Î¼m gate inalas ingaas high electron mobility transistor and reduction of its short channel effects",
+      "AA": [
+        {
+          "AuN": "takatomo enoki",
+          "DAuN": "Takatomo Enoki",
+          "AuId": 1818411831
+        },
+        {
+          "AuN": "masaaki tomizawa",
+          "DAuN": "Masaaki Tomizawa",
+          "AuId": 2054892899
+        },
+        {
+          "AuN": "yohtaro umeda",
+          "DAuN": "Yohtaro Umeda",
+          "AuId": 2109856768
+        },
+        {
+          "AuN": "yasunobu ishii",
+          "DAuN": "Yasunobu Ishii",
+          "AuId": 1982950984
+        }
+      ],
+      "F": [
+        {
+          "FN": "high electron mobility transistor",
+          "FId": 162057924
+        },
+        {
+          "FN": "chemistry",
+          "FId": 185592680
+        },
+        {
+          "FN": "physics",
+          "FId": 121332964
+        }
+      ]
+    },
+    {
+      "logprob": -17.517,
+      "Id": 2131556268,
+      "E": "{\"DN\":\"0.13- $\\\\mu$ m CMOS Phase Shifters for X-, K u -, and K-Band Phased Arrays\",\"IA\":{\"IndexLength\":242,\"InvertedIndex\":{\"Two\":[0],\"4-bit\":[1,132],\"active\":[2,32],\"phase\":[3,34,39,42,71,88,100,104,133,146,150,156,177,185,226,234],\"shifters\":[4,35,72],\"integrated\":[5],\"with\":[6,63,76],\"all\":[7,87,131,191],\"digital\":[8,33],\"control\":[9],\"circuitry\":[10],\"in\":[11,141,221,231],\"0.13-mum\":[12],\"RF\":[13],\"CMOS\":[14],\"technology\":[15],\"are\":[16,52],\"developed\":[17],\"for\":[18,60,86,130,202],\"X-\":[19,97,143,223],\"and\":[20,24,66,98,144,194,224,228],\"Ku-band\":[21,99,145,225],\"(8-18\":[22],\"GHz)\":[23,27],\"K-band\":[25,149,176,233],\"(18-26\":[26],\"phased\":[28],\"arrays,\":[29],\"respectively.\":[30],\"The\":[31,50,118,128,148,161,172,214],\"synthesize\":[36],\"the\":[37,96,102,113,142,175,187,192,195,222,232],\"required\":[38],\"using\":[40],\"a\":[41,55,237],\"interpolation\":[43],\"process\":[44],\"by\":[45],\"adding\":[46],\"quadrature-phased\":[47],\"input\":[48,129,173],\"signals.\":[49],\"designs\":[51],\"based\":[53],\"on\":[54],\"resonance-based\":[56],\"quadrature\":[57,61],\"all-pass\":[58],\"filter\":[59],\"signaling\":[62],\"minimum\":[64],\"loss\":[65,121,164],\"wide\":[67],\"operation\":[68],\"bandwidth.\":[69],\"Both\":[70],\"can\":[73],\"change\":[74],\"phases\":[75],\"less\":[77,107],\"than\":[78,108],\"about\":[79],\"2\":[80,211],\"dB\":[81],\"of\":[82,154,174],\"RMS\":[83,103,155],\"amplitude\":[84],\"imbalance\":[85],\"states\":[89,134],\"through\":[90],\"an\":[91],\"associated\":[92],\"DAC\":[93],\"control.\":[94],\"For\":[95,183],\"shifter,\":[101,235],\"error\":[105,157],\"is\":[106,135,165,179,206,218],\"10\":[109],\"o\":[110],\"over\":[112],\"entire\":[114],\"5-18\":[115],\"GHz\":[116,140],\"range.\":[117],\"average\":[119,162],\"insertion\":[120,163],\"ranges\":[122],\"from\":[123,166,236],\"to\":[124,168],\"at\":[125,137,158,169,180],\"5-20\":[126],\"GHz.\":[127,160,171,182],\"typically\":[136],\"-5.4\":[138],\"plusmn1.3\":[139],\"shifter.\":[147],\"shifter\":[151,178,227],\"exhibits\":[152],\"6.5-13\":[153],\"15-26\":[159,170],\"4.6\":[167],\"24\":[181],\"both\":[184],\"shifters,\":[186],\"core\":[188],\"size\":[189],\"excluding\":[190],\"pads\":[193],\"output\":[196],\"50\":[197],\"Omega\":[198],\"matching\":[199],\"circuits,\":[200],\"inserted\":[201],\"measurement\":[203],\"purpose\":[204],\"only,\":[205],\"very\":[207],\"small,\":[208],\"0.33times0.43\":[209],\"mm\":[210],\".\":[213],\"total\":[215],\"current\":[216],\"consumption\":[217],\"5.8\":[219],\"mA\":[220,230],\"7.8\":[229],\"1.5\":[238],\"V\":[239],\"supply\":[240],\"voltage.\":[241]}},\"S\":[{\"Ty\":3,\"U\":\"http://escholarship.org/uc/item/91q7q7hh.pdf\"},{\"Ty\":1,\"U\":\"http://escholarship.org/uc/item/91q7q7hh\"},{\"Ty\":1,\"U\":\"http://ieeexplore.ieee.org/document/4362098/\"},{\"Ty\":1,\"U\":\"http://yadda.icm.edu.pl/yadda/element/bwmeta1.element.ieee-000004362098\"},{\"Ty\":1,\"U\":\"http://cat.inist.fr/?aModele=afficheN&cpsidt=19194825\"}],\"VFN\":\"IEEE Journal of Solid-state Circuits\",\"V\":42,\"I\":11,\"FP\":2535,\"LP\":2546,\"DOI\":\"10.1109/JSSC.2007.907225\",\"CC\":{\"1666177547\":[\"Although sometimes referred to differently as an endless PS [20], a programmable PS [ 21 ], a Cartesian PS [23], or a phase rotator [24], the underlying principle for all cases is to interpolate the phases of two orthogonal-phased input signals through adding the I/Q inputs for synthesizing the required phase.\"],\"2115509517\":[\"LECTRONIC phase shifters (PSs), the most essential elements in electronic beam-steering systems such as phased-array antennas, have been traditionally developed using switched transmission lines [1]â€“[ 3 ], 90 -hybrid coupled lines [4]â€“[6], and periodic loaded lines [7]â€“[9].\"],\"2119959167\":[\"The migrations from distributed networks to lumped-element configurations, such as synthetic transmission lines with varactors (and/or variable inductors) tuning [10]â€“[12], lumped hybrid-couplers with reflection loads [ 13 ]â€“[15], or the combined topologies of lumped low-pass filters and high-pass filters [16]â€“[18], seem to reduce the physical dimensions of the phase shifters with reasonable performance achieved.\"],\"2152070386\":[\"The migrations from distributed networks to lumped-element configurations, such as synthetic transmission lines with varactors (and/or variable inductors) tuning [ 10 ]â€“[12], lumped hybrid-couplers with reflection loads [13]â€“[15], or the combined topologies of lumped low-pass filters and high-pass filters [16]â€“[18], seem to reduce the physical dimensions of the phase shifters with reasonable performance achieved.\"],\"2162384366\":[\"Compared with the passive designs, active phase shifters [ 20 ]â€“[27] where differential phases can be obtained by the roles of transistors rather than passive networks, can achieve a high integration level with decent gain and accuracy along with a fine digital phase control under a constrained power budget.\\u001bAlthough sometimes referred to differently as an endless PS [ 20 ], a programmable PS [21], a Cartesian PS [23], or a phase rotator [24], the underlying principle for all cases is to interpolate the phases of two orthogonal-phased input signals through adding the I/Q inputs for synthesizing the required phase.\"],\"2123061312\":[\"The migrations from distributed networks to lumped-element configurations, such as synthetic transmission lines with varactors (and/or variable inductors) tuning [10]â€“[12], lumped hybrid-couplers with reflection loads [13]â€“[ 15 ], or the combined topologies of lumped low-pass filters and high-pass filters [16]â€“[18], seem to reduce the physical dimensions of the phase shifters with reasonable performance achieved.\"],\"2162337392\":[\"LECTRONIC phase shifters (PSs), the most essential elements in electronic beam-steering systems such as phased-array antennas, have been traditionally developed using switched transmission lines [1]â€“[3], 90 -hybrid coupled lines [4]â€“[6], and periodic loaded lines [ 7 ]â€“[9].\"],\"2120212002\":[\"The migrations from distributed networks to lumped-element configurations, such as synthetic transmission lines with varactors (and/or variable inductors) tuning [10]â€“[ 12 ], lumped hybrid-couplers with reflection loads [13]â€“[15], or the combined topologies of lumped low-pass filters and high-pass filters [16]â€“[18], seem to reduce the physical dimensions of the phase shifters with reasonable performance achieved.\"],\"1969118370\":[\"Although sometimes referred to differently as an endless PS [20], a programmable PS [21], a Cartesian PS [23], or a phase rotator [ 24 ], the underlying principle for all cases is to interpolate the phases of two orthogonal-phased input signals through adding the I/Q inputs for synthesizing the required phase.\"],\"2013487584\":[\"Compared with the passive designs, active phase shifters [20]â€“[ 27 ] where differential phases can be obtained by the roles of transistors rather than passive networks, can achieve a high integration level with decent gain and accuracy along with a fine digital phase control under a constrained power budget.\\u001bSpecifically, as the output phases heavily depend on the amplitude weightings of I- and Q-input, the output phase error is more sensitive to the amplitude mismatch than the phase mismatch of the I/Q inputs, which leads to the use of an all-pass polyphase filter ensuring equal I/Q amplitude for all , rather than a high-pass/low-pass mode one as an I/Q generation network as in [ 27 ].\"],\"2163730993\":[\"Although sometimes referred to differently as an endless PS [20], a programmable PS [21], a Cartesian PS [ 23 ], or a phase rotator [24], the underlying principle for all cases is to interpolate the phases of two orthogonal-phased input signals through adding the I/Q inputs for synthesizing the required phase.\"],\"2143838395\":[\"LECTRONIC phase shifters (PSs), the most essential elements in electronic beam-steering systems such as phased-array antennas, have been traditionally developed using switched transmission lines [1]â€“[3], 90 -hybrid coupled lines [4]â€“[ 6 ], and periodic loaded lines [7]â€“[9].\"],\"2045568219\":[\"The phased array adopts the conventional RF phase-shifting architecture, which is superior to other architectures such as local oscillator (LO) or IF phase-shifting systems in that the RF output signal has a high pattern directivity so that it can substantially reject an interferer before a RF mixer, relaxing the mixer linearity and overall dynamic range requirement [ 28 ].\"]},\"RP\":[{\"Id\":2091316804,\"CoC\":13},{\"Id\":2165365566,\"CoC\":30},{\"Id\":2095843437,\"CoC\":12},{\"Id\":2112481448,\"CoC\":12},{\"Id\":2152070386,\"CoC\":14},{\"Id\":2128579103,\"CoC\":12},{\"Id\":2119320964,\"CoC\":13},{\"Id\":2100835570,\"CoC\":22},{\"Id\":2099671724,\"CoC\":12},{\"Id\":2045522226,\"CoC\":23},{\"Id\":2105215851,\"CoC\":16},{\"Id\":2167084050,\"CoC\":15},{\"Id\":1980110765,\"CoC\":14},{\"Id\":2143060162,\"CoC\":15},{\"Id\":2110178592,\"CoC\":12},{\"Id\":2109324008,\"CoC\":12},{\"Id\":2040973627,\"CoC\":23},{\"Id\":2162756614,\"CoC\":27},{\"Id\":1997146307,\"CoC\":14},{\"Id\":2142714691,\"CoC\":12}],\"ANF\":[{\"FN\":\"Kwang-Jin\",\"LN\":\"Koh\",\"S\":1},{\"FN\":\"Gabriel M.\",\"LN\":\"Rebeiz\",\"S\":2}],\"BV\":\"IEEE Journal of Solid-state Circuits\",\"BT\":\"a\"}",
+      "Ti": "0 13 mu m cmos phase shifters for x k u and k band phased arrays",
+      "AA": [
+        {
+          "AuN": "kwangjin koh",
+          "DAuN": "Kwang-Jin Koh",
+          "AuId": 1988213778
+        },
+        {
+          "AuN": "gabriel m rebeiz",
+          "DAuN": "Gabriel M. Rebeiz",
+          "AuId": 182839298
+        }
+      ],
+      "F": [
+        {
+          "FN": "phase shift module",
+          "FId": 103864889
+        },
+        {
+          "FN": "interpolation",
+          "FId": 17378031
+        },
+        {
+          "FN": "electronic engineering",
+          "FId": 24326235
+        },
+        {
+          "FN": "electrical engineering",
+          "FId": 119599485
+        },
+        {
+          "FN": "telecommunications",
+          "FId": 76155785
+        },
+        {
+          "FN": "engineering",
+          "FId": 127413603
+        },
+        {
+          "FN": "computer science",
+          "FId": 41008148
+        }
+      ]
+    },
+    {
+      "logprob": -18.143,
+      "Id": 2057815485,
+      "E": "{\"DN\":\"0.13 $\\\\mu$ m SiGe BiCMOS Technology Fully Dedicated to mm-Wave Applications\",\"IA\":{\"IndexLength\":70,\"InvertedIndex\":{\"This\":[0],\"paper\":[1],\"presents\":[2],\"a\":[3,16],\"complete\":[4],\"0.13\":[5],\"Î¼m\":[6],\"SiGe\":[7,28],\"BiCMOS\":[8],\"technology\":[9],\"fully\":[10],\"dedicated\":[11],\"to\":[12],\"millimeter-wave\":[13],\"applications,\":[14],\"including\":[15],\"high-speed\":[17],\"(230/280\":[18],\"GHz\":[19],\"f\":[20],\"T\":[21],\"/f\":[22],\"MAX\":[23],\")\":[24],\"and\":[25,38,47,61],\"medium\":[26],\"voltage\":[27],\"HBT,\":[29],\"thick-copper\":[30],\"back-end\":[31,67],\"designed\":[32],\"for\":[33],\"high\":[34],\"performance\":[35],\"transmission\":[36],\"lines\":[37],\"inductors,\":[39],\"2\":[40,42],\"fF/Î¼m\":[41],\"high-linearity\":[44],\"MIM\":[45],\"capacitor\":[46],\"complementary\":[48],\"double\":[49],\"gate\":[50],\"oxide\":[51],\"MOS\":[52],\"transistors.\":[53],\"Details\":[54],\"are\":[55],\"given\":[56],\"on\":[57,66],\"HBT\":[58],\"integration,\":[59],\"reliability\":[60],\"models\":[62],\"as\":[63,65],\"well\":[64],\"devices\":[68],\"models.\":[69]}},\"S\":[{\"Ty\":1,\"U\":\"http://ieeexplore.ieee.org/document/5226691/\"},{\"Ty\":1,\"U\":\"http://yadda.icm.edu.pl/yadda/element/bwmeta1.element.ieee-000005226691\"}],\"VFN\":\"IEEE Journal of Solid-state Circuits\",\"V\":44,\"I\":9,\"FP\":2312,\"LP\":2321,\"DOI\":\"10.1109/JSSC.2009.2024102\",\"RP\":[{\"Id\":2147787314,\"CoC\":8},{\"Id\":1513497107,\"CoC\":6},{\"Id\":2100779054,\"CoC\":8},{\"Id\":2109424730,\"CoC\":10},{\"Id\":2110153873,\"CoC\":5},{\"Id\":2155922905,\"CoC\":5},{\"Id\":2138486692,\"CoC\":5},{\"Id\":2157754281,\"CoC\":6},{\"Id\":2025470309,\"CoC\":5},{\"Id\":2008349901,\"CoC\":9},{\"Id\":2096728154,\"CoC\":5},{\"Id\":2027334762,\"CoC\":5},{\"Id\":2128335437,\"CoC\":5},{\"Id\":2142949001,\"CoC\":5},{\"Id\":2108506242,\"CoC\":7},{\"Id\":2025963163,\"CoC\":8},{\"Id\":2144441009,\"CoC\":5},{\"Id\":2110163924,\"CoC\":6},{\"Id\":2157715295,\"CoC\":8},{\"Id\":2106967466,\"CoC\":7}],\"ANF\":[{\"FN\":\"GrÃ©gory\",\"LN\":\"Avenier\",\"S\":1},{\"FN\":\"Malick\",\"LN\":\"Diop\",\"S\":2},{\"FN\":\"Pascal\",\"LN\":\"Chevalier\",\"S\":3},{\"FN\":\"Germaine\",\"LN\":\"Troillard\",\"S\":4},{\"FN\":\"Nicolas\",\"LN\":\"Loubet\",\"S\":5},{\"FN\":\"Julien\",\"LN\":\"Bouvier\",\"S\":6},{\"FN\":\"Linda\",\"LN\":\"Depoyan\",\"S\":7},{\"FN\":\"Nicolas\",\"LN\":\"Derrier\",\"S\":8},{\"FN\":\"Michel\",\"LN\":\"Buczko\",\"S\":9},{\"FN\":\"CÃ©dric\",\"LN\":\"Leyris\",\"S\":10},{\"FN\":\"Samuel\",\"LN\":\"Boret\",\"S\":11},{\"FN\":\"SÃ©bastien\",\"LN\":\"Montusclat\",\"S\":12},{\"FN\":\"Alain\",\"LN\":\"Margain\",\"S\":13},{\"FN\":\"SÃ©bastien\",\"LN\":\"Pruvost\",\"S\":14},{\"FN\":\"Sean T.\",\"LN\":\"Nicolson\",\"S\":15},{\"FN\":\"Kenneth H. K.\",\"LN\":\"Yau\",\"S\":16},{\"FN\":\"Nathalie\",\"LN\":\"Revil\",\"S\":17},{\"FN\":\"Daniel\",\"LN\":\"Gloria\",\"S\":18},{\"FN\":\"Didier\",\"LN\":\"Dutartre\",\"S\":19},{\"FN\":\"Sorin P.\",\"LN\":\"Voinigescu\",\"S\":20},{\"FN\":\"Alain\",\"LN\":\"Chantre\",\"S\":21}],\"BV\":\"IEEE Journal of Solid-state Circuits\",\"BT\":\"a\"}",
+      "Ti": "0 13 mu m sige bicmos technology fully dedicated to mm wave applications",
+      "AA": [
+        {
+          "AuN": "g avenier",
+          "DAuN": "GrÃ©gory Avenier",
+          "AuId": 2080048302
+        },
+        {
+          "AuN": "malick diop",
+          "DAuN": "Malick Diop",
+          "AuId": 2502960726
+        },
+        {
+          "AuN": "pascal chevalier",
+          "DAuN": "Pascal Chevalier",
+          "AuId": 2110745019
+        },
+        {
+          "AuN": "germaine troillard",
+          "DAuN": "Germaine Troillard",
+          "AuId": 2627313586
+        },
+        {
+          "AuN": "nicolas loubet",
+          "DAuN": "Nicolas Loubet",
+          "AuId": 2463480122
+        },
+        {
+          "AuN": "julien bouvier",
+          "DAuN": "Julien Bouvier",
+          "AuId": 2487595436
+        },
+        {
+          "AuN": "linda depoyan",
+          "DAuN": "Linda Depoyan",
+          "AuId": 711773481
+        },
+        {
+          "AuN": "n derrier",
+          "DAuN": "Nicolas Derrier",
+          "AuId": 383426607
+        },
+        {
+          "AuN": "m buczko",
+          "DAuN": "Michel Buczko",
+          "AuId": 401640854
+        },
+        {
+          "AuN": "cedric leyris",
+          "DAuN": "CÃ©dric Leyris",
+          "AuId": 333490822
+        },
+        {
+          "AuN": "s boret",
+          "DAuN": "Samuel Boret",
+          "AuId": 2428913558
+        },
+        {
+          "AuN": "sebastien montusclat",
+          "DAuN": "SÃ©bastien Montusclat",
+          "AuId": 1991277299
+        },
+        {
+          "AuN": "alain margain",
+          "DAuN": "Alain Margain",
+          "AuId": 2708247482
+        },
+        {
+          "AuN": "sebastien pruvost",
+          "DAuN": "SÃ©bastien Pruvost",
+          "AuId": 676294822
+        },
+        {
+          "AuN": "sean t nicolson",
+          "DAuN": "Sean T. Nicolson",
+          "AuId": 1994150984
+        },
+        {
+          "AuN": "kenneth h k yau",
+          "DAuN": "Kenneth H. K. Yau",
+          "AuId": 2097065452
+        },
+        {
+          "AuN": "n revil",
+          "DAuN": "Nathalie Revil",
+          "AuId": 2020046477
+        },
+        {
+          "AuN": "d gloria",
+          "DAuN": "Daniel Gloria",
+          "AuId": 2106156898
+        },
+        {
+          "AuN": "didier dutartre",
+          "DAuN": "Didier Dutartre",
+          "AuId": 2010216506
+        },
+        {
+          "AuN": "sorin p voinigescu",
+          "DAuN": "Sorin P. Voinigescu",
+          "AuId": 1761228485
+        },
+        {
+          "AuN": "a chantre",
+          "DAuN": "Alain Chantre",
+          "AuId": 2244116691
+        }
+      ],
+      "F": [
+        {
+          "FN": "heterojunction bipolar transistor",
+          "FId": 173408217
+        },
+        {
+          "FN": "electronic engineering",
+          "FId": 24326235
+        },
+        {
+          "FN": "electrical engineering",
+          "FId": 119599485
+        },
+        {
+          "FN": "telecommunications",
+          "FId": 76155785
+        },
+        {
+          "FN": "engineering",
+          "FId": 127413603
+        }
+      ]
+    },
+    {
+      "logprob": -18.191,
+      "Id": 2072569245,
+      "E": "{\"DN\":\"0.18-/spl mu/m CMOS 10-Gb/s multiplexer/demultiplexer ICs using current mode logic with tolerance to threshold voltage fluctuation\",\"IA\":{\"IndexLength\":98,\"InvertedIndex\":{\"A\":[0],\"feedback\":[1],\"MOS\":[2],\"current\":[3],\"mode\":[4],\"logic\":[5,17],\"(MCML)\":[6],\"is\":[7,18,31,77],\"proposed\":[8],\"for\":[9,33,51],\"the\":[10,22,27,84],\"high-speed\":[11],\"operation\":[12,35],\"of\":[13,36,81,83],\"CMOS\":[14,38,60,68],\"transistors.\":[15,39,61,97],\"This\":[16],\"more\":[19],\"tolerant\":[20],\"to\":[21],\"threshold\":[23],\"voltage\":[24],\"fluctuation\":[25],\"than\":[26,66,79],\"conventional\":[28,67,85],\"MCML\":[29],\"and\":[30,46,70,73,88],\"suitable\":[32],\"gigahertz\":[34],\"deep-submicron\":[37],\"Using\":[40],\"this\":[41],\"logic,\":[42],\"8:1\":[43],\"multiplexer\":[44],\"(MUX)\":[45],\"1:8\":[47],\"demultiplexer\":[48],\"(DEMUX)\":[49],\"ICs\":[50,63,72,90],\"optical-fiber-link\":[52],\"systems\":[53],\"have\":[54],\"been\":[55],\"fabricated\":[56],\"with\":[57],\"0.18-/spl\":[58],\"mu/m\":[59],\"The\":[62],\"are\":[64],\"faster\":[65],\"MUX\":[69,87],\"DEMUX\":[71,89],\"their\":[74],\"power\":[75],\"consumption\":[76],\"less\":[78],\"1/4\":[80],\"that\":[82],\"10-Gb/s\":[86],\"made\":[91],\"using\":[92],\"Si\":[93],\"bipolar\":[94],\"or\":[95],\"GaAs\":[96]}},\"S\":[{\"Ty\":3,\"U\":\"http://www.ece.ncsu.edu/asic/ece733/papers/Logic/Mux%2BFF.pdf\"},{\"Ty\":1,\"U\":\"http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=924861\"},{\"Ty\":1,\"U\":\"http://ci.nii.ac.jp/naid/80012319814\"},{\"Ty\":0,\"U\":\"http://ieeexplore.ieee.org/xpl/abstractMetrics.jsp?reload=true&arnumber=924861&contentType=Journals+%26+Magazines\"}],\"VFN\":\"IEEE Journal of Solid-state Circuits\",\"V\":36,\"I\":6,\"FP\":988,\"LP\":996,\"DOI\":\"10.1109/4.924861\",\"RP\":[{\"Id\":2161492807,\"CoC\":8},{\"Id\":1973172971,\"CoC\":8},{\"Id\":2135286216,\"CoC\":7},{\"Id\":2007905475,\"CoC\":11},{\"Id\":2030822983,\"CoC\":22},{\"Id\":2134067926,\"CoC\":8},{\"Id\":1546705134,\"CoC\":8},{\"Id\":2097154741,\"CoC\":30},{\"Id\":2202138637,\"CoC\":27},{\"Id\":1997433601,\"CoC\":9},{\"Id\":2121604406,\"CoC\":27},{\"Id\":1595570256,\"CoC\":8},{\"Id\":2167482965,\"CoC\":9},{\"Id\":2034525900,\"CoC\":10},{\"Id\":2131853386,\"CoC\":8},{\"Id\":2141825982,\"CoC\":16},{\"Id\":1569638374,\"CoC\":10},{\"Id\":2162501417,\"CoC\":9},{\"Id\":1503933700,\"CoC\":12},{\"Id\":2157024459,\"CoC\":9}],\"ANF\":[{\"FN\":\"Akira\",\"LN\":\"Tanabe\",\"S\":1},{\"FN\":\"Masato\",\"LN\":\"Umetani\",\"S\":2},{\"FN\":\"Ikuo\",\"LN\":\"Fujiwara\",\"S\":3},{\"FN\":\"Takayuki\",\"LN\":\"Ogura\",\"S\":4},{\"FN\":\"Kotaro\",\"LN\":\"Kataoka\",\"S\":5},{\"FN\":\"Masao\",\"LN\":\"Okihara\",\"S\":6},{\"FN\":\"Hiroshi\",\"LN\":\"Sakuraba\",\"S\":7},{\"FN\":\"Tetsuo\",\"LN\":\"Endoh\",\"S\":8},{\"FN\":\"Fujio\",\"LN\":\"Masuoka\",\"S\":9}],\"BV\":\"IEEE Journal of Solid-state Circuits\",\"BT\":\"a\"}",
+      "Ti": "0 18 spl mu m cmos 10 gb s multiplexer demultiplexer ics using current mode logic with tolerance to threshold voltage fluctuation",
+      "AA": [
+        {
+          "AuN": "akira tanabe",
+          "DAuN": "Akira Tanabe",
+          "AuId": 2305500359
+        },
+        {
+          "AuN": "masato umetani",
+          "DAuN": "Masato Umetani",
+          "AuId": 2336403844
+        },
+        {
+          "AuN": "ikuo fujiwara",
+          "DAuN": "Ikuo Fujiwara",
+          "AuId": 2511458086
+        },
+        {
+          "AuN": "takayuki ogura",
+          "DAuN": "Takayuki Ogura",
+          "AuId": 2631582511
+        },
+        {
+          "AuN": "kotaro kataoka",
+          "DAuN": "Kotaro Kataoka",
+          "AuId": 2556247810
+        },
+        {
+          "AuN": "masao okihara",
+          "DAuN": "Masao Okihara",
+          "AuId": 2697244933
+        },
+        {
+          "AuN": "hiroshi sakuraba",
+          "DAuN": "Hiroshi Sakuraba",
+          "AuId": 2030600997
+        },
+        {
+          "AuN": "tetsuo endoh",
+          "DAuN": "Tetsuo Endoh",
+          "AuId": 2059874068
+        },
+        {
+          "AuN": "fujio masuoka",
+          "DAuN": "Fujio Masuoka",
+          "AuId": 2276264159
+        }
+      ],
+      "F": [
+        {
+          "FN": "video feedback",
+          "FId": 193081819
+        },
+        {
+          "FN": "threshold voltage",
+          "FId": 195370968
+        },
+        {
+          "FN": "gallium arsenide",
+          "FId": 510052550
+        },
+        {
+          "FN": "multiplexing",
+          "FId": 19275194
+        },
+        {
+          "FN": "bipolar junction transistor",
+          "FId": 23061349
+        },
+        {
+          "FN": "frequency",
+          "FId": 163077636
+        },
+        {
+          "FN": "electronic engineering",
+          "FId": 24326235
+        },
+        {
+          "FN": "electrical engineering",
+          "FId": 119599485
+        },
+        {
+          "FN": "telecommunications",
+          "FId": 76155785
+        },
+        {
+          "FN": "engineering",
+          "FId": 127413603
+        }
+      ]
+    },
+    {
+      "logprob": -17.295,
+      "Id": 1979902309,
+      "E": "{\"DN\":\"0.5-V analog circuit techniques and their application in OTA and filter design\",\"IA\":{\"IndexLength\":197,\"InvertedIndex\":{\"We\":[0,21],\"present\":[1],\"design\":[2,29,146],\"techniques\":[3,123],\"that\":[4],\"make\":[5],\"possible\":[6],\"the\":[7,44,194],\"operation\":[8],\"of\":[9,167,186],\"analog\":[10],\"circuits\":[11],\"with\":[12,40,46,141,164],\"very\":[13],\"low\":[14],\"supply\":[15],\"voltages,\":[16],\"down\":[17],\"to\":[18,33,53,145],\"0.5\":[19],\"V.\":[20],\"use\":[22],\"operational\":[23],\"transconductance\":[24],\"amplifier\":[25],\"(OTA)\":[26],\"and\":[27,43,57,65,97,117,135,189],\"filter\":[28],\"as\":[30],\"a\":[31,74,89,94,106,114,147,159,182],\"vehicle\":[32],\"introduce\":[34],\"these\":[35],\"techniques.\":[36],\"Two\":[37],\"OTAs,\":[38],\"one\":[39],\"body\":[41],\"inputs\":[42],\"other\":[45],\"gate\":[47],\"inputs,\":[48],\"are\":[49,67,127,133,138],\"designed.\":[50],\"Biasing\":[51],\"strategies\":[52],\"maintain\":[54],\"common-mode\":[55],\"voltages\":[56],\"attain\":[58],\"maximum\":[59],\"signal\":[60],\"swing\":[61],\"over\":[62],\"process,\":[63],\"voltage,\":[64],\"temperature\":[66],\"proposed.\":[68],\"Prototype\":[69],\"chips\":[70],\"were\":[71],\"fabricated\":[72],\"in\":[73,158],\"0.18-/spl\":[75,160],\"mu/m\":[76,161],\"CMOS\":[77,162],\"process\":[78,163],\"using\":[79],\"standard\":[80],\"0.5-V\":[81,142,168,195],\"V/sub\":[82,165],\"T/\":[83,166],\"devices.\":[84],\"The\":[85,102,155,177],\"body-input\":[86],\"OTA\":[87,104],\"has\":[88,105,181],\"measured\":[90,107,183],\"52-dB\":[91],\"DC\":[92,109],\"gain,\":[93],\"2.5-MHz\":[95],\"gain-bandwidth,\":[96,116],\"consumes\":[98,118],\"110\":[99],\"/spl\":[100,120],\"mu/W.\":[101,121],\"gate-input\":[103,143],\"62-dB\":[108],\"gain\":[110],\"(with\":[111],\"automatic\":[112],\"gain-enhancement),\":[113],\"10-MHz\":[115],\"75\":[119],\"Design\":[122],\"for\":[124,175],\"active-RC\":[125],\"filters\":[126],\"also\":[128,169],\"presented.\":[129],\"Weak-inversion\":[130],\"MOS\":[131],\"varactors\":[132],\"proposed\":[134],\"modeled.\":[136],\"These\":[137],\"used\":[139],\"along\":[140],\"OTAs\":[144],\"fully\":[148],\"integrated,\":[149],\"135-kHz\":[150],\"fifth-order\":[151],\"elliptic\":[152],\"low-pass\":[153],\"filter.\":[154],\"prototype\":[156],\"chip\":[157,180],\"includes\":[170],\"an\":[171],\"on-chip\":[172],\"phase-locked\":[173],\"loop\":[174],\"tuning.\":[176],\"1-mm/sup\":[178],\"2/\":[179],\"dynamic\":[184],\"range\":[185],\"57\":[187],\"dB\":[188],\"draws\":[190],\"2.2\":[191],\"mA\":[192],\"from\":[193],\"supply.\":[196]}},\"S\":[{\"Ty\":1,\"U\":\"http://ieeexplore.ieee.org/document/1546214/\"}],\"VFN\":\"IEEE Journal of Solid-state Circuits\",\"V\":40,\"I\":12,\"FP\":2373,\"LP\":2387,\"DOI\":\"10.1109/JSSC.2005.856280\",\"RP\":[{\"Id\":1977612008,\"CoC\":19},{\"Id\":2021832161,\"CoC\":21},{\"Id\":2168161629,\"CoC\":27},{\"Id\":1973633439,\"CoC\":18},{\"Id\":2114254364,\"CoC\":15},{\"Id\":2169924428,\"CoC\":18},{\"Id\":2160509435,\"CoC\":14},{\"Id\":1967874754,\"CoC\":19},{\"Id\":1576972161,\"CoC\":29},{\"Id\":1566916904,\"CoC\":22},{\"Id\":2125210009,\"CoC\":14},{\"Id\":2035061364,\"CoC\":29},{\"Id\":2140049759,\"CoC\":15},{\"Id\":2105479071,\"CoC\":15},{\"Id\":2067097483,\"CoC\":20},{\"Id\":2059555657,\"CoC\":28},{\"Id\":1986638008,\"CoC\":15},{\"Id\":2033021170,\"CoC\":16},{\"Id\":2157637127,\"CoC\":63},{\"Id\":2151589511,\"CoC\":50}],\"ANF\":[{\"FN\":\"Shouri\",\"LN\":\"Chatterjee\",\"S\":1},{\"FN\":\"Yannis\",\"LN\":\"Tsividis\",\"S\":2},{\"FN\":\"Peter\",\"LN\":\"Kinget\",\"S\":3}],\"BV\":\"IEEE Journal of Solid-state Circuits\",\"BT\":\"a\"}",
+      "Ti": "0 5 v analog circuit techniques and their application in ota and filter design",
+      "AA": [
+        {
+          "AuN": "shouri chatterjee",
+          "DAuN": "Shouri Chatterjee",
+          "AuId": 2141020220
+        },
+        {
+          "AuN": "yannis tsividis",
+          "DAuN": "Yannis Tsividis",
+          "AuId": 2113210800
+        },
+        {
+          "AuN": "peter r kinget",
+          "DAuN": "Peter Kinget",
+          "AuId": 251712523
+        }
+      ],
+      "F": [
+        {
+          "FN": "active filter",
+          "FId": 85899133
+        },
+        {
+          "FN": "operational amplifier",
+          "FId": 145366948
+        },
+        {
+          "FN": "low pass filter",
+          "FId": 44682112
+        },
+        {
+          "FN": "electronic engineering",
+          "FId": 24326235
+        },
+        {
+          "FN": "electrical engineering",
+          "FId": 119599485
+        },
+        {
+          "FN": "control theory",
+          "FId": 65244806
+        },
+        {
+          "FN": "engineering",
+          "FId": 127413603
+        }
+      ]
+    },
+    {
+      "logprob": -18.378,
+      "Id": 2031283182,
+      "E": "{\"DN\":\"0.5-V input digital LDO with 98.7% current efficiency and 2.7-ÂµA quiescent current in 65nm CMOS\",\"IA\":{\"IndexLength\":109,\"InvertedIndex\":{\"Digital\":[0],\"LDO\":[1,23,36,55,105],\"is\":[2,42],\"proposed\":[3],\"to\":[4,14,30],\"provide\":[5],\"the\":[6,15,21,26,34,49,60,81,85,89,93,98,103],\"low\":[7],\"noise\":[8],\"and\":[9,41,64,72,84],\"tunable\":[10],\"power\":[11],\"supply\":[12],\"voltage\":[13,63,67,83],\"0.5-V\":[16,50,61,107],\"near-threshold\":[17],\"logic\":[18],\"circuits.\":[19],\"Because\":[20],\"conventional\":[22],\"feedback-controlled\":[24],\"by\":[25,44],\"operational\":[27],\"amplifier\":[28],\"fail\":[29],\"operate\":[31],\"at\":[32,76,106],\"0.5V,\":[33],\"digital\":[35,45,54,104],\"eliminates\":[37],\"all\":[38],\"analog\":[39],\"circuits\":[40],\"controlled\":[43],\"circuits,\":[46],\"which\":[47,96],\"enables\":[48],\"operation.\":[51,108],\"The\":[52],\"developed\":[53],\"in\":[56,92],\"65nm\":[57],\"CMOS\":[58],\"achieved\":[59],\"input\":[62,82],\"0.45-V\":[65],\"output\":[66],\"with\":[68],\"98.7%\":[69],\"current\":[70,75,87],\"efficiency\":[71,101],\"2.7-ÂµA\":[73],\"quiescent\":[74,86],\"200-ÂµA\":[77],\"load\":[78],\"current.\":[79],\"Both\":[80],\"are\":[88],\"lowest\":[90],\"values\":[91],\"published\":[94],\"LDO's,\":[95],\"indicates\":[97],\"good\":[99],\"energy\":[100],\"of\":[102]}},\"S\":[{\"Ty\":3,\"U\":\"http://icdesign.iis.u-tokyo.ac.jp/2010_22.pdf\"},{\"Ty\":1,\"U\":\"http://ieeexplore.ieee.org/document/5617586/\"},{\"Ty\":1,\"U\":\"http://dblp.uni-trier.de/db/conf/cicc/cicc2010.html#OkumaIRZCWTS10\"},{\"Ty\":1,\"U\":\"http://yadda.icm.edu.pl/yadda/element/bwmeta1.element.ieee-000005617586\"},{\"Ty\":1,\"U\":\"http://dx.doi.org/10.1109/CICC.2010.5617586\"},{\"Ty\":0,\"U\":\"http://www.ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=05617586\"}],\"VFN\":\"Custom Integrated Circuits Conference\",\"VSN\":\"CICC\",\"DOI\":\"10.1109/CICC.2010.5617586\",\"CC\":{\"2085651287\":[\"Very low-voltage operation of VLSI's is effective in reducing both dynamic and leakage power and the maximum energy efficiency is achieved at low power supply voltage (VDD) below 0.5V (e.g., 340 mV [ 1 ] and 320 mV [2]).\\u001bThus, many works have been carried out on the sub/near-threshold logic circuits [ 1-5 ].\"],\"2018219387\":[\"Thus, many works have been carried out on the sub/near-threshold logic circuits [ 1-5 ].\"],\"2168016639\":[\"Very low-voltage operation of VLSI's is effective in reducing both dynamic and leakage power and the maximum energy efficiency is achieved at low power supply voltage (VDD) below 0.5V (e.g., 340 mV [1] and 320 mV [ 2 ]).\\u001bThus, many works have been carried out on the sub/near-threshold logic circuits [ 1-5 ].\\u001bStable and tunable VDD (e.g., 320 mVÂ± 50mV [ 2 ]) is required in the near-threshold logic circuits, because the gate delay in the near-threshold logic circuits is very sensitive to VDD and the process variations.\"],\"2034182926\":[\"Thus, many works have been carried out on the sub/near-threshold logic circuits [ 1-5 ].\"],\"2166324028\":[\"LDO and comparison with some previous regulators are listed in Table I. The digital control is proposed in [ 6 ].\\u001bThe regulator in [ 6 ], however, is not LDO but a half VDD generator.\"],\"2065045880\":[\"Thus, many works have been carried out on the sub/near-threshold logic circuits [ 1-5 ].\"]},\"RP\":[{\"Id\":1992459337,\"CoC\":12},{\"Id\":2291648313,\"CoC\":5},{\"Id\":2038923613,\"CoC\":6},{\"Id\":2290232850,\"CoC\":5},{\"Id\":2054989520,\"CoC\":7}],\"ANF\":[{\"FN\":\"Yasuyuki\",\"LN\":\"Okuma\",\"S\":1},{\"FN\":\"Koichi\",\"LN\":\"Ishida\",\"S\":2},{\"FN\":\"Yoshikatsu\",\"LN\":\"Ryu\",\"S\":3},{\"FN\":\"Xin\",\"LN\":\"Zhang\",\"S\":4},{\"FN\":\"Po-Hung\",\"LN\":\"Chen\",\"S\":5},{\"FN\":\"Kazunori\",\"LN\":\"Watanabe\",\"S\":6},{\"FN\":\"Makoto\",\"LN\":\"Takamiya\",\"S\":7},{\"FN\":\"Takayasu\",\"LN\":\"Sakurai\",\"S\":8}],\"BV\":\"IEEE Custom Integrated Circuits Conference 2010\",\"BT\":\"p\"}",
+      "Ti": "0 5 v input digital ldo with 98 7 current efficiency and 2 7 Âµa quiescent current in 65nm cmos",
+      "AA": [
+        {
+          "AuN": "yasuyuki okuma",
+          "DAuN": "Yasuyuki Okuma",
+          "AuId": 2113415413
+        },
+        {
+          "AuN": "koichi ishida",
+          "DAuN": "Koichi Ishida",
+          "AuId": 2110396867
+        },
+        {
+          "AuN": "yoshikatsu ryu",
+          "DAuN": "Yoshikatsu Ryu",
+          "AuId": 2148738610
+        },
+        {
+          "AuN": "xin zhang",
+          "DAuN": "Xin Zhang",
+          "AuId": 2590906370
+        },
+        {
+          "AuN": "pohung chen",
+          "DAuN": "Po-Hung Chen",
+          "AuId": 2161326653
+        },
+        {
+          "AuN": "kazunori watanabe",
+          "DAuN": "Kazunori Watanabe",
+          "AuId": 2139716990
+        },
+        {
+          "AuN": "makoto takamiya",
+          "DAuN": "Makoto Takamiya",
+          "AuId": 2148807792
+        },
+        {
+          "AuN": "takayasu sakurai",
+          "DAuN": "Takayasu Sakurai",
+          "AuId": 2149149726
+        }
+      ],
+      "F": [
+        {
+          "FN": "digital electronics",
+          "FId": 81843906
+        },
+        {
+          "FN": "cmos",
+          "FId": 46362747
+        },
+        {
+          "FN": "logic gate",
+          "FId": 131017901
+        },
+        {
+          "FN": "efficient energy use",
+          "FId": 2742236
+        },
+        {
+          "FN": "electronic engineering",
+          "FId": 24326235
+        },
+        {
+          "FN": "control engineering",
+          "FId": 133731056
+        },
+        {
+          "FN": "electrical engineering",
+          "FId": 119599485
+        },
+        {
+          "FN": "engineering",
+          "FId": 127413603
+        },
+        {
+          "FN": "computer science",
+          "FId": 41008148
+        }
+      ]
+    },
+    {
+      "logprob": -17.741,
+      "Id": 2042578850,
+      "E": "{\"DN\":\"0.8-Numerical-Aperture Two-Element Objective Lens for the Optical Disk\",\"IA\":{\"IndexLength\":171,\"InvertedIndex\":{\"A\":[0,69,97],\"high-numerical-aperture\":[1],\"(\":[2],\"NA)\":[3],\"optical\":[4,8],\"pick-up\":[5],\"for\":[6,65],\"an\":[7,122],\"disk\":[12,21,70,84,94,139],\"was\":[13,86,105],\"developed\":[14],\"using\":[15,121],\"a\":[16,19,27,37,43,149,165],\"two-element\":[17,38,150],\"lens,\":[18],\"thin\":[20],\"substrate\":[22,71],\"and\":[26,156],\"spherical\":[28,98],\"aberration\":[29,99,129],\"compensation\":[30,100],\"mechanism.\":[31],\"We\":[32],\"designed\":[33],\"objective\":[39,49,63,120,169],\"lens\":[40,50,64,151],\"rather\":[41],\"than\":[42,75],\"conventional\":[44],\"singlet\":[45],\"in\":[51,124,137],\"order\":[52,125],\"to\":[53,88,126,134,153],\"increase\":[54,89],\"the\":[55,59,81,90,109,112,119,128,135,138,142],\"fabrication\":[56],\"tolerance\":[57],\"of\":[58,80,115],\"high\":[66],\"NA.\":[68],\"which\":[72],\"is\":[73],\"thinner\":[74],\"that\":[79,161],\"digital\":[82],\"video\":[83],\"(DVD)\":[85],\"adopted\":[87],\"tilt\":[95],\"tolerance.\":[96],\"mechanism\":[101],\"realized\":[106],\"by\":[107],\"controlling\":[108],\"distance\":[110],\"between\":[111],\"two\":[113],\"lenses\":[114],\"actuator\":[123],\"cancel\":[127],\"due\":[133],\"variations\":[136],\"thickness.\":[140],\"In\":[141],\"experiment,\":[143],\"we\":[144],\"fabricated\":[148],\"according\":[152],\"our\":[154],\"design\":[155],\"confirmed\":[160],\"it\":[162],\"performed\":[163],\"as\":[164],\"high-quality\":[166],\"0.8-\":[167],\"NA\":[168],\"lens.\":[170]}},\"S\":[{\"Ty\":3,\"U\":\"http://iopscience.iop.org/article/10.1143/JJAP.36.456/pdf\"},{\"Ty\":1,\"U\":\"http://iopscience.iop.org/article/10.1143/JJAP.36.456/meta\"},{\"Ty\":1,\"U\":\"http://stacks.iop.org/1347-4065/36/456\"},{\"Ty\":1,\"U\":\"http://adsabs.harvard.edu/abs/1997JaJAP..36..456Y\"},{\"Ty\":1,\"U\":\"http://ci.nii.ac.jp/naid/30021828915\"},{\"Ty\":0,\"U\":\"http://ci.nii.ac.jp/naid/110003946766\"},{\"Ty\":0,\"U\":\"http://iopscience.iop.org/1347-4065/36/1S/456/pdf/1347-4065_36_1S_456.pdf\"}],\"VFN\":\"Japanese Journal of Applied Physics\",\"V\":36,\"I\":1,\"FP\":456,\"LP\":459,\"DOI\":\"10.1143/JJAP.36.456\",\"RP\":[{\"Id\":2052981581,\"CoC\":8},{\"Id\":2016763315,\"CoC\":12},{\"Id\":2242560381,\"CoC\":6},{\"Id\":2072616757,\"CoC\":11},{\"Id\":1955553033,\"CoC\":8},{\"Id\":1968388327,\"CoC\":7},{\"Id\":2042962164,\"CoC\":14},{\"Id\":2397087200,\"CoC\":6},{\"Id\":1010936580,\"CoC\":6},{\"Id\":1556802159,\"CoC\":8},{\"Id\":1993091059,\"CoC\":10},{\"Id\":1972787194,\"CoC\":7},{\"Id\":1843226037,\"CoC\":15},{\"Id\":2111753757,\"CoC\":15},{\"Id\":1994266778,\"CoC\":7},{\"Id\":2047670952,\"CoC\":9},{\"Id\":2046074618,\"CoC\":13},{\"Id\":2103580915,\"CoC\":6},{\"Id\":2292451815,\"CoC\":8},{\"Id\":2267567826,\"CoC\":6}],\"ANF\":[{\"FN\":\"Kenji\",\"LN\":\"Yamamoto\",\"S\":1},{\"FN\":\"Kiyoshi\",\"LN\":\"Osato\",\"S\":2},{\"FN\":\"Isao\",\"LN\":\"Ichimura\",\"S\":3},{\"FN\":\"Fumisada\",\"LN\":\"Maeda\",\"S\":4},{\"FN\":\"Toshio\",\"LN\":\"Watanabe\",\"S\":5}],\"BV\":\"Japanese Journal of Applied Physics\",\"BT\":\"a\"}",
+      "Ti": "0 8 numerical aperture two element objective lens for the optical disk",
+      "AA": [
+        {
+          "AuN": "kenji yamamoto",
+          "DAuN": "Kenji Yamamoto",
+          "AuId": 2145025850
+        },
+        {
+          "AuN": "kiyoshi osato",
+          "DAuN": "Kiyoshi Osato",
+          "AuId": 2438553830
+        },
+        {
+          "AuN": "isao ichimura",
+          "DAuN": "Isao Ichimura",
+          "AuId": 2707774830
+        },
+        {
+          "AuN": "fumisada maeda",
+          "DAuN": "Fumisada Maeda",
+          "AuId": 2042417467
+        },
+        {
+          "AuN": "toshio watanabe",
+          "DAuN": "Toshio Watanabe",
+          "AuId": 2615412597
+        }
+      ],
+      "F": [
+        {
+          "FN": "lens speed",
+          "FId": 28267339
+        },
+        {
+          "FN": "optical reader",
+          "FId": 538770
+        },
+        {
+          "FN": "numerical aperture",
+          "FId": 159108749
+        },
+        {
+          "FN": "spherical aberration",
+          "FId": 70638346
+        },
+        {
+          "FN": "optical disc",
+          "FId": 1135709
+        },
+        {
+          "FN": "lens",
+          "FId": 198809072
+        },
+        {
+          "FN": "mineralogy",
+          "FId": 199289684
+        },
+        {
+          "FN": "optics",
+          "FId": 120665830
+        },
+        {
+          "FN": "physics",
+          "FId": 121332964
+        }
+      ]
+    },
+    {
+      "logprob": -18.138,
+      "Id": 1980380414,
+      "E": "{\"DN\":\"0.85-PW, 33-fs Ti:sapphire laser\",\"IA\":{\"IndexLength\":50,\"InvertedIndex\":{\"We\":[0],\"have\":[1],\"successfully\":[2],\"produced\":[3,43],\"a\":[4,8,15,22],\"laser\":[5],\"pulse\":[6,16],\"with\":[7],\"peak\":[9,39],\"power\":[10,40],\"of\":[11,18],\"0.85\":[12],\"PW\":[13],\"for\":[14],\"duration\":[17],\"33\":[19],\"fs\":[20],\"in\":[21,44],\"four-stage\":[23],\"Ti:sapphire\":[24,46],\"amplifier\":[25],\"chain\":[26],\"based\":[27],\"on\":[28],\"chirped-pulse\":[29,47],\"amplification.\":[30],\"To\":[31],\"our\":[32],\"knowledge\":[33],\"this\":[34],\"result\":[35],\"represents\":[36],\"the\":[37],\"highest\":[38],\"pulses\":[41],\"yet\":[42],\"any\":[45],\"amplification\":[48],\"system.\":[49]}},\"S\":[{\"Ty\":1,\"U\":\"https://www.osapublishing.org/ol/abstract.cfm?uri=ol-28-17-1594\"},{\"Ty\":1,\"U\":\"https://www.ncbi.nlm.nih.gov/pubmed/12956390\"},{\"Ty\":1,\"U\":\"http://adsabs.harvard.edu/abs/2003OptL...28.1594A\"},{\"Ty\":1,\"U\":\"http://cat.inist.fr/?aModele=afficheN&cpsidt=15051973\"},{\"Ty\":1,\"U\":\"http://www.opticsinfobase.org/abstract.cfm?URI=ol-28-17-1594\"}],\"VFN\":\"Optics Letters\",\"V\":28,\"I\":17,\"FP\":1594,\"LP\":1596,\"DOI\":\"10.1364/OL.28.001594\",\"RP\":[{\"Id\":2003246501,\"CoC\":25},{\"Id\":2065121689,\"CoC\":29},{\"Id\":2045424359,\"CoC\":26},{\"Id\":2059237406,\"CoC\":17},{\"Id\":2005878958,\"CoC\":22},{\"Id\":2019214372,\"CoC\":29},{\"Id\":2093038450,\"CoC\":18},{\"Id\":2102740828,\"CoC\":25},{\"Id\":2008597374,\"CoC\":16},{\"Id\":2029231228,\"CoC\":22},{\"Id\":2067192515,\"CoC\":25},{\"Id\":1975632628,\"CoC\":22},{\"Id\":2028602705,\"CoC\":64},{\"Id\":2054782006,\"CoC\":29},{\"Id\":2034545653,\"CoC\":25},{\"Id\":2014606493,\"CoC\":40},{\"Id\":1992571430,\"CoC\":20},{\"Id\":2026441566,\"CoC\":24},{\"Id\":2006269595,\"CoC\":19},{\"Id\":2010578583,\"CoC\":15}],\"ANF\":[{\"FN\":\"M.\",\"LN\":\"Aoyama\",\"S\":1},{\"FN\":\"K.\",\"LN\":\"Yamakawa\",\"S\":2},{\"FN\":\"Y.\",\"LN\":\"Akahane\",\"S\":3},{\"FN\":\"J.\",\"LN\":\"Ma\",\"S\":4},{\"FN\":\"N.\",\"LN\":\"Inoue\",\"S\":5},{\"FN\":\"H.\",\"LN\":\"Ueda\",\"S\":6},{\"FN\":\"H.\",\"LN\":\"Kiriyama\",\"S\":7}],\"BV\":\"Optics Letters\",\"BT\":\"a\"}",
+      "Ti": "0 85 pw 33 fs ti sapphire laser",
+      "AA": [
+        {
+          "AuN": "m aoyama",
+          "DAuN": "M. Aoyama",
+          "AuId": 2584508243
+        },
+        {
+          "AuN": "koichi yamakawa",
+          "DAuN": "K. Yamakawa",
+          "AuId": 1978895526
+        },
+        {
+          "AuN": "y akahane",
+          "DAuN": "Y. Akahane",
+          "AuId": 2154386260
+        },
+        {
+          "AuN": "j ma",
+          "DAuN": "J. Ma",
+          "AuId": 2436363949
+        },
+        {
+          "AuN": "n inoue",
+          "DAuN": "N. Inoue",
+          "AuId": 2312448737
+        },
+        {
+          "AuN": "h ueda",
+          "DAuN": "H. Ueda",
+          "AuId": 2345007153
+        },
+        {
+          "AuN": "hiromitsu kiriyama",
+          "DAuN": "H. Kiriyama",
+          "AuId": 2617398785
+        }
+      ],
+      "F": [
+        {
+          "FN": "bandwidth limited pulse",
+          "FId": 179549803
+        },
+        {
+          "FN": "femtosecond pulse shaping",
+          "FId": 102595763
+        },
+        {
+          "FN": "chirped pulse amplification",
+          "FId": 26585016
+        },
+        {
+          "FN": "ti sapphire laser",
+          "FId": 6082264
+        },
+        {
+          "FN": "optical parametric amplifier",
+          "FId": 8524419
+        },
+        {
+          "FN": "ultrafast laser spectroscopy",
+          "FId": 95503338
+        },
+        {
+          "FN": "ultrashort pulse",
+          "FId": 178596936
+        },
+        {
+          "FN": "titanium",
+          "FId": 506065880
+        },
+        {
+          "FN": "optoelectronics",
+          "FId": 49040817
+        },
+        {
+          "FN": "optics",
+          "FId": 120665830
+        },
+        {
+          "FN": "physics",
+          "FId": 121332964
+        }
+      ]
+    },
+    {
+      "logprob": -16.746,
+      "Id": 1604906054,
+      "E": "{\"DN\":\"0: An XML query language\",\"VFN\":\"Ibm Systems Journal\",\"RP\":[{\"Id\":172857819,\"CoC\":373},{\"Id\":2123645388,\"CoC\":45},{\"Id\":2165286227,\"CoC\":66},{\"Id\":1568367777,\"CoC\":43},{\"Id\":2040374677,\"CoC\":45},{\"Id\":2110459974,\"CoC\":62},{\"Id\":1994694191,\"CoC\":71},{\"Id\":1508787438,\"CoC\":124},{\"Id\":2494551946,\"CoC\":46},{\"Id\":2061884758,\"CoC\":72},{\"Id\":2134356404,\"CoC\":64},{\"Id\":2087060113,\"CoC\":53},{\"Id\":109947125,\"CoC\":124},{\"Id\":26560675,\"CoC\":44},{\"Id\":2113836856,\"CoC\":65},{\"Id\":2230830246,\"CoC\":63},{\"Id\":270849871,\"CoC\":64},{\"Id\":2109464129,\"CoC\":68},{\"Id\":2050630970,\"CoC\":161},{\"Id\":13024833,\"CoC\":46}],\"ANF\":[{\"FN\":\"Scott\",\"LN\":\"Boag\",\"S\":1},{\"FN\":\"Donald D.\",\"LN\":\"Chamberlin\",\"S\":2},{\"FN\":\"Mary\",\"LN\":\"Fernandez\",\"S\":3},{\"FN\":\"Daniela\",\"LN\":\"Florescu\",\"S\":4},{\"FN\":\"Jonathan\",\"LN\":\"Robie\",\"S\":5},{\"FN\":\"Jerome\",\"LN\":\"Simeon\",\"S\":6}],\"BV\":\"Ibm Systems Journal\",\"BT\":\"a\"}",
+      "Ti": "0 an xml query language",
+      "AA": [
+        {
+          "AuN": "scott boag",
+          "DAuN": "Scott Boag",
+          "AuId": 2140813584
+        },
+        {
+          "AuN": "donald d chamberlin",
+          "DAuN": "Donald D. Chamberlin",
+          "AuId": 2118171802
+        },
+        {
+          "AuN": "mary f fernandez",
+          "DAuN": "Mary Fernandez",
+          "AuId": 2137694142
+        },
+        {
+          "AuN": "daniela florescu",
+          "DAuN": "Daniela Florescu",
+          "AuId": 2061024894
+        },
+        {
+          "AuN": "jonathan robie",
+          "DAuN": "Jonathan Robie",
+          "AuId": 2248004958
+        },
+        {
+          "AuN": "jerome simeon",
+          "DAuN": "Jerome Simeon",
+          "AuId": 2136479023
+        }
+      ],
+      "F": [
+        {
+          "FN": "sargable",
+          "FId": 192939062
+        },
+        {
+          "FN": "xml schema editor",
+          "FId": 34716815
+        },
+        {
+          "FN": "xml validation",
+          "FId": 55348073
+        },
+        {
+          "FN": "ql",
+          "FId": 181411696
+        },
+        {
+          "FN": "xml encryption",
+          "FId": 173242113
+        },
+        {
+          "FN": "rdf query language",
+          "FId": 96956885
+        },
+        {
+          "FN": "data control language",
+          "FId": 32977378
+        },
+        {
+          "FN": "streaming xml",
+          "FId": 44883583
+        },
+        {
+          "FN": "object query language",
+          "FId": 117667704
+        },
+        {
+          "FN": "sparql",
+          "FId": 41009113
+        },
+        {
+          "FN": "web search query",
+          "FId": 164120249
+        },
+        {
+          "FN": "web query classification",
+          "FId": 118689300
+        },
+        {
+          "FN": "document structure description",
+          "FId": 68699486
+        },
+        {
+          "FN": "query by example",
+          "FId": 194222762
+        },
+        {
+          "FN": "data manipulation language",
+          "FId": 56288433
+        },
+        {
+          "FN": "query expansion",
+          "FId": 99016210
+        },
+        {
+          "FN": "query optimization",
+          "FId": 157692150
+        },
+        {
+          "FN": "query language",
+          "FId": 192028432
+        },
+        {
+          "FN": "database",
+          "FId": 77088390
+        },
+        {
+          "FN": "computer science",
+          "FId": 41008148
+        }
+      ]
+    },
+    {
+      "logprob": -15.561,
+      "Id": 2129950235,
+      "E": "{\"DN\":\"0 and 1\",\"S\":[{\"Ty\":1,\"U\":\"http://www.musicnovatory.com/mix04.html\"}],\"RP\":[{\"Id\":2088197232,\"CoC\":24},{\"Id\":2128635872,\"CoC\":22},{\"Id\":2133264665,\"CoC\":31},{\"Id\":2013703224,\"CoC\":18},{\"Id\":2084061932,\"CoC\":30},{\"Id\":2065922524,\"CoC\":31},{\"Id\":2149130813,\"CoC\":20},{\"Id\":1775749144,\"CoC\":18},{\"Id\":2158504652,\"CoC\":16},{\"Id\":2157573306,\"CoC\":20},{\"Id\":2018956831,\"CoC\":44},{\"Id\":2082532978,\"CoC\":18},{\"Id\":2052508810,\"CoC\":19},{\"Id\":1989029379,\"CoC\":25},{\"Id\":2147415913,\"CoC\":18},{\"Id\":1856219842,\"CoC\":21},{\"Id\":2089050662,\"CoC\":16},{\"Id\":2158343416,\"CoC\":18},{\"Id\":2168140453,\"CoC\":16},{\"Id\":2012460392,\"CoC\":15}],\"ANF\":[{\"FN\":\"Andre\",\"LN\":\"Cusson\",\"S\":1},{\"FN\":\"Dnaos\",\"LN\":\"Technology\",\"S\":3}],\"BV\":\"\",\"BT\":\"a\"}",
+      "Ti": "0 and 1",
+      "AA": [
+        {
+          "AuN": "andre cusson",
+          "DAuN": "Andre Cusson",
+          "AuId": 2136753114
+        },
+        {
+          "AuN": "dnaos technology",
+          "DAuN": "Dnaos Technology",
+          "AuId": 2105437187
+        }
+      ],
+      "F": [
+        {
+          "FN": "key",
+          "FId": 26668531
+        },
+        {
+          "FN": "harmony music",
+          "FId": 89721942
+        },
+        {
+          "FN": "chord",
+          "FId": 175497961
+        },
+        {
+          "FN": "melody",
+          "FId": 43803900
+        },
+        {
+          "FN": "music theory",
+          "FId": 143857728
+        },
+        {
+          "FN": "aesthetics",
+          "FId": 107038049
+        },
+        {
+          "FN": "communication",
+          "FId": 46312422
+        },
+        {
+          "FN": "psychology",
+          "FId": 15744967
+        }
+      ]
+    }
+  ],
+  "aborted": true
+}

@@ -1,0 +1,112 @@
+{
+  "expr": "Ty='6'",
+  "entities": [
+    {
+      "logprob": -25,
+      "Id": 75678561,
+      "DFN": "0-10 V lighting control",
+      "FN": "0 10 v lighting control"
+    },
+    {
+      "logprob": -25,
+      "Id": 153633119,
+      "DFN": "$1,000 genome",
+      "FN": "1 000 genome",
+      "FP": [
+        {
+          "FId": 189206191
+        }
+      ]
+    },
+    {
+      "logprob": -13.872,
+      "Id": 70127317,
+      "DFN": "1,3-Beta-glucan synthase",
+      "FN": "1 3 beta glucan synthase",
+      "FP": [
+        {
+          "FId": 171852809
+        },
+        {
+          "FId": 204641814
+        }
+      ]
+    },
+    {
+      "logprob": -15.326,
+      "Id": 50524431,
+      "DFN": "1-center problem",
+      "FN": "1 center problem",
+      "FP": [
+        {
+          "FId": 41045048
+        }
+      ]
+    },
+    {
+      "logprob": -11.456,
+      "Id": 1971145,
+      "DFN": "1 centimetre",
+      "FN": "1 centimetre"
+    },
+    {
+      "logprob": -25,
+      "Id": 35018998,
+      "DFN": "1-K pot",
+      "FN": "1 k pot",
+      "FP": [
+        {
+          "FId": 54101563
+        },
+        {
+          "FId": 25536358
+        }
+      ]
+    },
+    {
+      "logprob": -11.736,
+      "Id": 116809168,
+      "DFN": "1 kilometre",
+      "FN": "1 kilometre",
+      "FP": [
+        {
+          "FId": 147452769
+        }
+      ]
+    },
+    {
+      "logprob": -25,
+      "Id": 59320590,
+      "DFN": "1-Meg Modem",
+      "FN": "1 meg modem",
+      "FP": [
+        {
+          "FId": 24459613
+        },
+        {
+          "FId": 86180272
+        }
+      ]
+    },
+    {
+      "logprob": -12.634,
+      "Id": 117003231,
+      "DFN": "1 metre",
+      "FN": "1 metre"
+    },
+    {
+      "logprob": -10.724,
+      "Id": 23992396,
+      "DFN": "1/N expansion",
+      "FN": "1 n expansion",
+      "FP": [
+        {
+          "FId": 117137515
+        },
+        {
+          "FId": 49987212
+        }
+      ]
+    }
+  ]
+}

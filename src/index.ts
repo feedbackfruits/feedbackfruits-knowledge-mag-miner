@@ -1,42 +1,29 @@
 import { Observable } from '@reactivex/rxjs';
 
-import { Actionable } from 'memux';
+import { Actionable, Readable } from 'memux';
 import { Miner } from 'feedbackfruits-knowledge-engine';
 
-// import { mine } from './miner';
+import { mine } from './miner';
 
 import {
   NAME,
-  // KAFKA_ADDRESS,
-  // OUTPUT_TOPIC,
 } from './config';
 
-const source = new Observable<Actionable>(observer => {
 
-});
+// Start the server when executed directly
+declare const require: any;
+if (require.main === module) {
+  console.log("Running as script.");
 
-const miner = Miner({ name: NAME, readable: { source } });
+  // Export globally
+  // tslint:disable-next-line no-string-literal
+  global["Miner"] = start();
+}
 
-export default miner;
+export default function start() {
+  console.log('Starting MAG miner');
+  const source = mine('FieldOfStudy').map(quad => ({ action: { type: 'write', quad } } as Actionable));
+  return Miner({ name: NAME, readable: { source } });
+}
 
-// import { getPages } from './miner';
-// const { send } = memux({
-//   name: NAME,
-//   url: KAFKA_ADDRESS,
-//   output: OUTPUT_TOPIC
-// });
-//
-// let count = 0;
-// function sendQuad(quad) {
-//   console.log(`Sending quad nr ${++count}`);
-//   return send({ type: 'write', quad });
-// }
-
-// console.log('Starting MAG miner...');
-//
-// const types = [ 'Paper' ];
-//
-// mine(types).then(() => {
-//   console.log(`Done!`);
-//   return;
-// }).catch(err => console.error(err));
+// export default miner;

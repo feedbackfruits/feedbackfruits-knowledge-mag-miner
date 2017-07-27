@@ -1,10 +1,12 @@
+import { Quad } from 'memux';
+
 import * as Context from '../context';
 
 function fieldNameToWikiId(name) {
   return `${name[0].toUpperCase()}${name.slice(1)}`.replace(/ /g, '_');
 }
 
-export function fieldOfStudyToQuad(entity) {
+export function fieldOfStudyToQuad(entity): Quad[] {
   let {
     Id: id,
     DFN: displayName,
