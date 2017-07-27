@@ -1,0 +1,36 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/feedbackfruits-knowledge-mag-miner
+    docker:
+      - image: node:8
+        environment:
+          NODE_ENV: test
+          OUTPUT_TOPIC: test_quad_update_requests
+      - image: wurstmeister/zookeeper:latest
+      - image: wurstmeister/kafka:latest
+        environment:
+          KAFKA_AUTO_CREATE_TOPICS_ENABLE: false
+          KAFKA_ZOOKEEPER_CONNECT: localhost:2181
+          KAFKA_CREATE_TOPICS: "test_quad_updates:1:1,test_quad_update_requests:1:1"
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+          - node_modules-{{ checksum "package.json" }}-{{ checksum "yarn.lock" }}
+          - node_modules-
+
+      - run:
+          name: Install dependencies
+          command: yarn install
+
+      - save_cache:
+          paths:
+            - node_modules
+          key: node_modules-{{ checksum "package.json" }}-{{ checksum "yarn.lock" }}
+
+      - run: yarn test
+      - run: yarn run coverage
+
+      - store_artifacts:
+          path: coverage
