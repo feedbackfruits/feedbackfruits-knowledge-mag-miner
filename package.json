@@ -52,7 +52,7 @@
     "dotenv": "^4.0.0",
     "feedbackfruits-knowledge-context": "feedbackfruits/feedbackfruits-knowledge-context",
     "feedbackfruits-knowledge-engine": "feedbackfruits/feedbackfruits-knowledge-engine",
-    "memux": "github:knowledge-express/memux#feature/more-typescript-things",
+    "memux": "github:knowledge-express/memux#semver:~0.4.0",
     "nock": "^9.0.14",
     "node-cayley": "^1.1.1",
     "node-fetch": "^1.6.3",
