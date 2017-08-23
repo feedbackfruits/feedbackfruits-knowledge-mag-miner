@@ -1,7 +1,7 @@
 import { Observable } from '@reactivex/rxjs';
 import fetch from 'node-fetch';
 
-import { Quad } from 'memux';
+import { Quad, Doc, Helpers } from 'feedbackfruits-knowledge-engine';
 
 import {
   MAG_EVALUATE_URL,
@@ -32,9 +32,11 @@ function urlForType(type: Context.Types) {
 }
 
 function urlForPage(baseUrl: string, page: number, pageSize: number): string {
-  let offset = `offset=${(page - 1) * pageSize}`;
-  let count = `count=${pageSize}`;
-  return `${baseUrl}&${offset}&${count}`;
+  const offset = `offset=${(page - 1) * pageSize}`;
+  const count = `count=${pageSize}`;
+  const url = `${baseUrl}&${offset}&${count}`;
+  console.log('Mining from:', url);
+  return url;
 }
 
 export type Page<T> = {
@@ -55,11 +57,10 @@ function pageToQuads<T>(type: Context.Types, page: Page<T>): Quad[] {
   }
 }
 
-export function mine(type: Context.Types, startPage = parseInt(START_PAGE), endPage = parseInt(END_PAGE), pageSize = parseInt(PAGE_SIZE)): Observable<Quad> {
-  return new Observable<Quad>(observer => {
+export function mine(type: Context.Types, startPage = START_PAGE, endPage = END_PAGE, pageSize = PAGE_SIZE): Observable<Doc> {
+  return new Observable<Doc>(observer => {
     (async () => {
       const url = urlForType(type);
-      console.log('Mining from:', url);
 
       if (pageSize <= 0) throw new Error(`Page size ${pageSize} must be greater than 0.`);
       if (startPage > endPage) throw new Error(`startPage ${startPage} must be less than (or equal to) endPage ${endPage}`);
@@ -71,7 +72,8 @@ export function mine(type: Context.Types, startPage = parseInt(START_PAGE), endP
         const result = await getPage(url, page, pageSize);
         console.log('Page gotten.')
         const quads = pageToQuads(type, result);
-        await Promise.all(quads.map(quad => observer.next(quad)));
+        const docs = Helpers.quadsToDocs(quads);
+        await Promise.all(docs.map(doc => observer.next(doc)));
 
         page++;
         done = page === endPage || result.entities.length < pageSize;

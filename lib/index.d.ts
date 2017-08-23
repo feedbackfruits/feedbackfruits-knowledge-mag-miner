@@ -1,8 +1,5 @@
-import { Actionable, Readable } from 'memux';
-export default function start(): Readable<Actionable & {
-    progress: {
-        offset: number;
-        partition: number;
-        topic: string;
-    };
-}>;
+import { Subscription } from '@reactivex/rxjs';
+export declare type MinerConfig = {
+    name: string;
+};
+export default function init({name}: MinerConfig): Promise<Subscription>;
