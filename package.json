@@ -5,16 +5,16 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
+    "build": "tsc",
     "clean": "rm -rf lib",
+    "prestart": "npm run build",
+    "start": "node lib",
     "pretest": "npm run clean && tsc --inlineSourceMap --outDir lib",
     "test": "nyc ava --verbose",
     "posttest": "npm run clean && npm run build",
     "watch-test": "nodemon -w test -x 'npm run test'",
     "coverage": "codecov",
-    "build": "tsc",
-    "watch": "tsc -w",
-    "start": "node lib",
-    "prepublish": "npm run build"
+    "watch": "nodemon lib"
   },
   "nyc": {},
   "ava": {
@@ -51,7 +51,7 @@
     "@types/node-fetch": "^1.6.7",
     "dotenv": "^4.0.0",
     "feedbackfruits-knowledge-context": "feedbackfruits/feedbackfruits-knowledge-context",
-    "feedbackfruits-knowledge-engine": "feedbackfruits/feedbackfruits-knowledge-engine",
+    "feedbackfruits-knowledge-engine": "github:feedbackfruits/feedbackfruits-knowledge-engine#feature/better-base",
     "memux": "github:knowledge-express/memux#semver:~0.4.0",
     "nock": "^9.0.14",
     "node-cayley": "^1.1.1",

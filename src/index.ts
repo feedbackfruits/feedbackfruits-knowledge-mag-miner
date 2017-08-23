@@ -1,29 +1,36 @@
-import { Observable } from '@reactivex/rxjs';
+import { Observable, Subscription } from '@reactivex/rxjs';
 
-import { Actionable, Readable } from 'memux';
-import { Miner } from 'feedbackfruits-knowledge-engine';
+import { Operation } from 'memux';
+import { Miner, Config as _Config, Helpers } from 'feedbackfruits-knowledge-engine';
 
 import { mine } from './miner';
 
-import {
-  NAME,
-} from './config';
+import * as Config from './config';
 
+
+export type MinerConfig = {
+  name: string
+}
+
+export default async function init({ name }: MinerConfig): Promise<Subscription> {
+  console.log('Starting MAG miner');
+  const send = await Miner({ name, customConfig: Config as any as typeof _Config.Base });
+  return mine('FieldOfStudy')
+    .map(doc => ({ action: 'write', key: doc['@id'], data: doc }))
+    .subscribe({
+      next: send,
+      error: (err) => { console.error(err); throw err; },
+      complete: () => {
+        console.log('Done mining.');
+      }
+    })
+}
 
 // Start the server when executed directly
 declare const require: any;
 if (require.main === module) {
   console.log("Running as script.");
-
-  // Export globally
-  // tslint:disable-next-line no-string-literal
-  global["Miner"] = start();
+  init({
+    name: Config.NAME,
+  }).catch(console.error);
 }
-
-export default function start() {
-  console.log('Starting MAG miner');
-  const source = mine('FieldOfStudy').map(quad => ({ action: { type: 'write', quad } } as Actionable));
-  return Miner({ name: NAME, readable: { source } });
-}
-
-// export default miner;

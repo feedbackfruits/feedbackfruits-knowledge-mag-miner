@@ -1,4 +1,4 @@
-import { Quad } from 'memux';
+import { Quad } from 'feedbackfruits-knowledge-engine';
 
 import * as Context from '../context';
 
