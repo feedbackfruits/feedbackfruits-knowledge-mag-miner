@@ -11,6 +11,7 @@ jobs:
           START_PAGE: 1
           END_PAGE: 2
           PAGE_SIZE: 10
+          TYPES_TO_MINE: "FieldOfStudy"
       - image: wurstmeister/zookeeper:latest
       - image: wurstmeister/kafka:latest
         environment:
