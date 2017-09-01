@@ -21,12 +21,15 @@ export function paperToQuad(entity): Quad[] {
   let {
     DN: displayName,
     D: description,
+    DOI
   } = metadata;
 
   let subject = `<http://academic.microsoft.com/#/detail/${id}>`;
   let quads = [
     { subject, predicate: Context.name, object: displayName },
     description && { subject, predicate: Context.description, object: description },
+
+    { subject, predicate: Context.sameAs, object: `<https://dx.doi.org/${DOI}>`},
 
     { subject, predicate: Context.type, object: Context.Knowledge.Resource },
     { subject, predicate: Context.type, object: Context.DigitalDocument },

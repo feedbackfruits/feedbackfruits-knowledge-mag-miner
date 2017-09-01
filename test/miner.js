@@ -58,7 +58,20 @@ test('it mines fields of study', t => {
       error: (...args) => reject(...args),
       complete: (...args) => reject(...args),
     });
-  }).then((...args) => t.pass(...args), (...args) => t.fail(...args));
+  }).then((operation) => {
+    return t.deepEqual(operation, {
+      '@id': 'http://academic.microsoft.com/#/detail/75678561',
+      'http://schema.org/name': [
+        '0-10 V lighting control',
+      ],
+      'http://schema.org/sameAs': [
+        '<http://dbpedia.org/resource/0-10_V_lighting_control>',
+      ],
+      'http://www.w3.org/1999/02/22-rdf-syntax-ns#type': [
+        '<http://academic.microsoft.com/FieldOfStudy>',
+      ]
+    });
+  }, (...args) => t.fail(...args));
 });
 
 test('it mines papers', t => {
@@ -74,5 +87,31 @@ test('it mines papers', t => {
       error: (...args) => reject(...args),
       complete: (...args) => reject(...args),
     });
-  }).then((...args) => t.pass(...args), (...args) => t.fail(...args));
+  }).then((operation) => {
+    return t.deepEqual(operation, {
+      '@id': 'http://academic.microsoft.com/#/detail/1994667404',
+      'http://schema.org/about': [
+        '<http://dbpedia.org/resource/High_electron_mobility_transistor>',
+        '<http://dbpedia.org/resource/Chemistry>',
+        '<http://dbpedia.org/resource/Physics>',
+      ],
+      'http://schema.org/author': [
+        '<http://academic.microsoft.com/#/detail/1818411831>',
+        '<http://academic.microsoft.com/#/detail/2054892899>',
+        '<http://academic.microsoft.com/#/detail/2109856768>',
+        '<http://academic.microsoft.com/#/detail/1982950984>',
+      ],
+      'http://schema.org/name': [
+        '0.05-Î¼m-Gate InAlAs/InGaAs High Electron Mobility Transistor and Reduction of Its Short-Channel Effects',
+      ],
+      'http://schema.org/sameAs': [
+        '<https://dx.doi.org/10.1143/JJAP.33.798>',
+      ],
+      'http://www.w3.org/1999/02/22-rdf-syntax-ns#type': [
+        '<https://knowledge.express/Resource>',
+        '<http://schema.org/DigitalDocument>',
+        '<http://schema.org/ScholarlyArticle>',
+      ],
+    });
+  }, (...args) => t.fail(...args));
 });
