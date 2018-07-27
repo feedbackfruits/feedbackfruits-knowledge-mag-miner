@@ -1,8 +1,8 @@
 require('dotenv').load({ silent: true });
 
 const {
-  NAME = 'microsoft-academic-graph',
-  KAFKA_ADDRESS = 'localhost:9092',
+  NAME = 'feedbackfruits-knowledge-mag-miner',
+  KAFKA_ADDRESS = 'tcp://localhost:9092',
   OUTPUT_TOPIC = 'update_requests',
 
   MAG_EVALUATE_URL = 'https://westus.api.cognitive.microsoft.com/academic/v1.0/evaluate',

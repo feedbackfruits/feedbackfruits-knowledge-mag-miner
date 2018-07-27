@@ -8,16 +8,16 @@ import { PAGE_SIZE, START_PAGE } from '../lib/config';
 import mockFieldOfStudyPage from './support/mockFieldOfStudyPage';
 import mockPaperPage from './support/mockPaperPage';
 
-test('it exists', t => {
+test.skip('it exists', t => {
   t.not(mine, undefined);
   t.is(typeof mine, 'function');
 });
 
-test('it returns an Observable', t => {
+test.skip('it returns an Observable', t => {
   t.is(mine() instanceof Observable, true);
 });
 
-test('it requires a valid page config', t => {
+test.skip('it requires a valid page config', t => {
   return Promise.all([
     new Promise((resolve, reject) => {
       mine('Paper', 1, 2, -1).subscribe({
@@ -45,7 +45,7 @@ test('it requires a valid page config', t => {
   ]);
 });
 
-test('it mines fields of study', t => {
+test.skip('it mines fields of study', t => {
   nock('https://westus.api.cognitive.microsoft.com')
     .get(`/academic/v1.0/evaluate?attributes=Id,FN,DFN,FC.FId,FP.FId&subscription-key=undefined&orderby=FN:asc&expr=Ty%3D%276%27&offset=${(START_PAGE - 1) * PAGE_SIZE}&count=${PAGE_SIZE}`)
     .reply(200, mockFieldOfStudyPage);
@@ -61,7 +61,7 @@ test('it mines fields of study', t => {
   }).then((...args) => t.pass(...args), (...args) => t.fail(...args));
 });
 
-test('it mines papers', t => {
+test.skip('it mines papers', t => {
   const observable = mine('Paper');
 
   nock('https://westus.api.cognitive.microsoft.com')
