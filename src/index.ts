@@ -12,18 +12,48 @@ export type MinerConfig = {
   name: string
 }
 
-export default async function init({ name }: MinerConfig): Promise<Subscription> {
+export default async function init({ name }: MinerConfig) {
   console.log('Starting MAG miner');
   const send = await Miner({ name, customConfig: Config as any as typeof _Config.Base });
-  return mine('FieldOfStudy')
-    .map(doc => ({ action: 'write', key: doc['@id'], data: doc }))
-    .subscribe({
-      next: send,
-      error: (err) => { console.error(err); throw err; },
+  const docs = mine('FieldOfStudy');
+
+  let count = 0;
+  await new Promise((resolve, reject) => {
+    docs.subscribe({
+      next: (doc) => {
+        count++;
+        console.log('Sending doc:', doc['@id']);
+        return send({ action: 'write', key: doc['@id'], data: doc });
+      },
+      error: (reason) => {
+        console.log('Miner crashed...');
+        console.error(reason);
+        reject(reason);
+      },
       complete: () => {
-        console.log('Done mining.');
+        console.log('Miner completed');
+        resolve();
       }
-    })
+    });
+  });
+
+  console.log(`Mined ${count} docs from MAG`);
+  return;
+
+
+
+  // return mine('FieldOfStudy')
+  //   .map(doc => ({ action: 'write', key: doc['@id'], data: doc }))
+  //   .subscribe({
+  //     next: operation => {
+  //       console.log('Sending operation:', operation);
+  //       return send(operation as any);
+  //     },
+  //     error: (err) => { console.error(err); throw err; },
+  //     complete: () => {
+  //       console.log('Done mining.');
+  //     }
+  //   })
 }
 
 // Start the server when executed directly

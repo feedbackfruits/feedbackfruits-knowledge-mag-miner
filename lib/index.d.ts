@@ -1,5 +1,4 @@
-import { Subscription } from '@reactivex/rxjs';
 export declare type MinerConfig = {
     name: string;
 };
-export default function init({name}: MinerConfig): Promise<Subscription>;
+export default function init({ name }: MinerConfig): Promise<void>;

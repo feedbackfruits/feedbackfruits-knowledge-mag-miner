@@ -50,15 +50,13 @@
     "@types/node": "^8.0.14",
     "@types/node-fetch": "^1.6.7",
     "dotenv": "^4.0.0",
-    "feedbackfruits-knowledge-context": "feedbackfruits/feedbackfruits-knowledge-context",
-    "feedbackfruits-knowledge-engine": "github:feedbackfruits/feedbackfruits-knowledge-engine#feature/better-base",
-    "memux": "github:knowledge-express/memux#semver:~0.4.0",
+    "feedbackfruits-knowledge-engine": "github:feedbackfruits/feedbackfruits-knowledge-engine#bump/context",
+    "memux": "github:knowledge-express/memux#~0.4.2",
     "nock": "^9.0.14",
     "node-cayley": "^1.1.1",
     "node-fetch": "^1.6.3",
-    "p-queue": "^1.0.0",
     "tslint": "^5.5.0",
-    "typescript": "^2.4.1"
+    "typescript": "^2.6.1"
   },
   "devDependencies": {
     "ava": "^0.20.0",
@@ -73,7 +71,7 @@
     "tap": "^5.7.0"
   },
   "engines": {
-    "node": ">= 8",
-    "npm": ">= 5"
+    "node": "8.5.0",
+    "npm": "5.7.1"
   }
 }
