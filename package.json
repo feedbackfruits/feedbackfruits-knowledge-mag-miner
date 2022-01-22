@@ -54,7 +54,7 @@
     "memux": "github:knowledge-express/memux#~0.4.2",
     "nock": "^9.0.14",
     "node-cayley": "^1.1.1",
-    "node-fetch": "^1.6.3",
+    "node-fetch": "^3.1.1",
     "tslint": "^5.5.0",
     "typescript": "^2.6.1"
   },
